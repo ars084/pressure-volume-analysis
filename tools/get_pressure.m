@@ -28,7 +28,7 @@ if isfolder(pat_name) % Go into patient folder
     
 else
     cd(home)
-    error([pat.name,' pressure waveform not found'])
+    error([pat_name,' pressure waveform not found'])
 end
 
 cd(home)
