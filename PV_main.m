@@ -1,12 +1,12 @@
-% Full pressure volume analysis
+% Full pressure volume data
 clc
 clear all 
 close all
 
 cd('/Volumes/McVeighLab/projects/Anderson/PV loops')
-addpath('/Volumes/McVeighLab/projects/Anderson/PV loops/tools')
+addpath('./tools')
 
-name = 'CVC1712041200';
+name = 'CVC1810161407';
 
 p = get_pressure(name); 
 v = get_volume(name);  
